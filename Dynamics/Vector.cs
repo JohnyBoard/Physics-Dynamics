@@ -8,6 +8,8 @@ namespace Dynamics
 {
     public class Vector
     {
+
+        //IA changing
         public Vector() : this(0, 0) { }
 
         public Vector(double x, double y)
