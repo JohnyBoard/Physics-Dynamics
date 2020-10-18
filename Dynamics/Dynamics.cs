@@ -51,8 +51,6 @@ namespace Dynamics
             r2 += v2 * dt;
             pbBall2.Location = new Point(Convert.ToInt32(r2.X), Convert.ToInt32(r2.Y));
             pbSpring.Height = pbBall2.Top - pbSpring.Top;
-            pbSpring.Height = pbBall2.Top - pbSpring.Top;
-            
             Vector F3 = 10 * (rx - r3);
             a3 = F3 / m3;
             v3 += a3 * dt;

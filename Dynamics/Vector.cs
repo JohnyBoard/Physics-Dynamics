@@ -8,8 +8,6 @@ namespace Dynamics
 {
     public class Vector
     {
-
-        //IA changing
         public Vector() : this(0, 0) { }
 
         public Vector(double x, double y)
@@ -48,21 +46,8 @@ namespace Dynamics
             return v * n;
         }
 
-        public static double operator *(Vector a, Vector b)
-        {
-            return a.X * b.X + a.Y * b.Y;
-        }
-
         public double X { get; set; }
 
         public double Y { get; set; }
-
-        public double SquareAbs
-        {
-            get
-            {
-                return X * X + Y * Y;
-            }
-        }
     }
 }
