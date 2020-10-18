@@ -107,7 +107,7 @@
             // pbMagnet
             // 
             this.pbMagnet.Image = ((System.Drawing.Image)(resources.GetObject("pbMagnet.Image")));
-            this.pbMagnet.Location = new System.Drawing.Point(542, 12);
+            this.pbMagnet.Location = new System.Drawing.Point(538, -2);
             this.pbMagnet.Name = "pbMagnet";
             this.pbMagnet.Size = new System.Drawing.Size(123, 105);
             this.pbMagnet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -118,7 +118,7 @@
             // 
             this.pbBall3.BackColor = System.Drawing.Color.Transparent;
             this.pbBall3.Image = ((System.Drawing.Image)(resources.GetObject("pbBall3.Image")));
-            this.pbBall3.Location = new System.Drawing.Point(579, 123);
+            this.pbBall3.Location = new System.Drawing.Point(575, 109);
             this.pbBall3.Name = "pbBall3";
             this.pbBall3.Size = new System.Drawing.Size(48, 47);
             this.pbBall3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
