@@ -21,6 +21,7 @@ namespace Dynamics
         {
             InitializeComponent();
         }
+
         private void button_Click(object sender, EventArgs e)
         {
             v1 = new Vector(500, -300);

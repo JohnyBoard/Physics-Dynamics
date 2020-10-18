@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dynamics
+namespace Dynamics 
 {
     public class Vector
     {
@@ -14,16 +14,6 @@ namespace Dynamics
         {
             X = x;
             Y = y;
-        }
-
-        public Vector Projection(Vector v)
-        {
-            return this * v / v.SquareAbs * v;
-        }
-
-        public override string ToString()
-        {
-            return $"({X};{Y})";
         }
 
         public static Vector operator +(Vector a, Vector b)
@@ -71,24 +61,6 @@ namespace Dynamics
             {
                 return X * X + Y * Y;
             }
-        }
-
-        public double Abs
-        {
-            get
-            {
-                return Convert.ToInt32(Math.Round(Math.Sqrt(SquareAbs)));
-            }
-        }
-
-        public Vector GetNorm()
-        {
-            return new Vector(-Y, X);
-        }
-
-        public Vector Mirror(Vector v)
-        {
-            return this - 2 * this.Projection(v.GetNorm());
         }
     }
 }
